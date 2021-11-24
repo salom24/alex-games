@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Draw!</title>
+  <script src="draw.js"></script>
+  <style>
+  body {margin: 0; overflow: hidden;}
+  canvas {position: fixed; top: 0; left: 0; cursor: crosshair;}
+  button {position: relative; z-index: 1;}
+  </style>
+</head>
+
+<body>
+  <button onmousedown="reset()">RESET</mouse>
+  <button onmousedown="changeColor('#FF0000',1)">Color RED</mouse>
+  <button onmousedown="changeColor('#0000FF',1)">Color BLUE</mouse>
+  <button onmousedown="changeColor('#00FF00',1)">Color GREEN</mouse>
+  <button onmousedown="changeColor('#000000',1)">Color BLACK</mouse>
+  <button onmousedown="changeColor('#FFFFFF',15)">ERASER</mouse>
+</body>
+</html>

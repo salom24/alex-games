@@ -1,0 +1,10 @@
+Disposición
+
+- 15px borde exterior (x2)
+- 58px caja (x9)
+- 9px borde interior (x2)
+- 5px borde pequeño (x6)
+TOTAL: 600px
+
+Fórmula:
+18 + i*(58 + 9 + 3*math.floor((i-1)/3))
